@@ -1,0 +1,58 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardElevation="10dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_gravity="top">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/img_photo_rounded"
+        android:layout_width="@dimen/list_poster_width"
+        android:layout_height="@dimen/list_poster_height"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:rotationY="180">
+
+        <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/film_name"
+            android:scaleType="fitXY" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="@dimen/list_poster_width"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:maxLines="3"
+        android:text="@string/name_film"
+        android:textColor="#142714"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_photo_rounded" />
+
+
+</LinearLayout>

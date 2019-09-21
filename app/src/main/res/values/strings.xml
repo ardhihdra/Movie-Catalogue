@@ -1,0 +1,38 @@
+<resources>
+    <string name="title_home">Movies</string>
+    <string name="title_dashboard">Tv Show</string>
+    <string name="rating">Rating : </string>
+    <string name="title_apps">Movie and Show Catalogue</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="release">Release :</string>
+    <string name="overview">Overview</string>
+    <string name="film_name">film name</string>
+    <string name="film_release">release year</string>
+    <string name="film_rating">film rating</string>
+    <string name="film_description">film description</string>
+    <string name="app_name">My Movies and TV Show List</string>
+    <string name="name_film">"Movies Name : "</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="genre">Genre :</string>
+    <string name="test">test</string>
+    <string name="voter">Voter :</string>
+    <string name="favorite">favorite</string>
+    <string name="menu1">Menu1</string>
+    <string name="search">search</string>
+    <string name="search_hint">find film</string>
+    <string name="search_for">Searching for :</string>
+    <string name="title_favorite_movie">Favorited Movie</string>
+    <string name="title_favorite_show">Favorited Show</string>
+    <string name="appwidget_text">Favorited Film</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">empty</string>
+    <string name="change_reminder_settings">Reminder Preferences</string>
+    <string name="text_alarm">Daily Reminder</string>
+    <string name="text_release_today">Release Reminder</string>
+    <string name="description_release_today">Set alarm if there is a today released Movie. Remind at 8:00 AM</string>
+    <string name="description_alarm">Set daily alarm to open this App. Remind every 7:00 AM</string>
+    <string name="turnon_alarm">Daily Reminder is turned on every 7:00 AM</string>
+</resources>

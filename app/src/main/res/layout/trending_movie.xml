@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/trend_img_photo_rounded"
+        android:layout_width="142dp"
+        android:layout_height="241dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/trend_img_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/film_name"/>
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/trend_txt_name"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/trend_img_photo_rounded"
+        android:maxLines="3"
+        android:text="@string/name_film"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#002244"
+        app:layout_constraintStart_toEndOf="@+id/trend_img_photo_rounded"
+        app:layout_constraintTop_toTopOf="@+id/trend_img_photo_rounded" />
+
+    <TextView
+        android:id="@+id/trend_txt_rating"
+        android:layout_width="20dp"
+        android:layout_height="17dp"
+        android:layout_below="@id/trend_txt_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/trend_txt_name"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="@string/test"
+        app:layout_constraintStart_toEndOf="@id/trend_img_photo_rounded"
+        app:layout_constraintTop_toBottomOf="@+id/trend_txt_name" />
+</android.support.constraint.ConstraintLayout>

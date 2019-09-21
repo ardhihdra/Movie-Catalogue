@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    app:cardElevation="10dp">
+
+
+
+
+    <TextView
+        android:id="@+id/rating_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/img_photo_rounded"
+        android:contentDescription="@string/rating"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="@string/rating"
+        app:layout_constraintStart_toEndOf="@+id/img_photo_rounded"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name" />
+
+    <TextView
+        android:id="@+id/txt_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_below="@id/txt_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/rating_tag"
+        android:contentDescription="@string/test"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="@string/test"
+        app:layout_constraintStart_toEndOf="@+id/rating_tag"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name" />
+
+    <TextView
+        android:id="@+id/genre_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_rating"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/img_photo_rounded"
+        android:contentDescription="@string/genre"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="@string/voter"
+        app:layout_constraintStart_toEndOf="@+id/img_photo_rounded"
+        app:layout_constraintTop_toBottomOf="@+id/txt_rating" />
+
+    <TextView
+        android:id="@+id/txt_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_below="@id/txt_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/genre_tag"
+        android:contentDescription="@string/genre"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="@string/genre"
+        app:layout_constraintStart_toEndOf="@+id/genre_tag"
+        app:layout_constraintTop_toBottomOf="@+id/txt_rating" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/img_photo_rounded"
+        android:maxLines="3"
+        android:text="@string/name_film"
+        android:textColor="#142714"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/img_photo_rounded"
+        app:layout_constraintTop_toTopOf="@+id/img_photo_rounded" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/img_photo_rounded"
+        android:layout_width="@dimen/list_poster_width"
+        android:layout_height="@dimen/list_poster_height"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/film_name"
+            android:scaleType="fitXY" />
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/img_favorite"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/favorite"
+
+        android:text="@string/favorite"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/img_photo_rounded"
+        app:layout_constraintTop_toBottomOf="@+id/genre_tag" />
+
+</android.support.constraint.ConstraintLayout>

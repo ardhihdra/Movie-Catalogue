@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">List Film dan TV Show</string>
+    <string name="film_description">deskripsi film</string>
+    <string name="film_name">nama film</string>
+    <string name="film_rating">penilaian film</string>
+    <string name="film_release">tahun keluar</string>
+    <string name="hello_blank_fragment">hello fragment kosong</string>
+    <string name="name_film">"Nama Film : "</string>
+    <string name="overview">Ikhtisar</string>
+    <string name="rating">"Peringkat : "</string>
+    <string name="release">"Tahun Keluar : "</string>
+    <string name="title_dashboard">Tv Show</string>
+    <string name="title_home">Film</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="title_notifications">Pemberitahuan</string>
+    <string name="genre">"Genre : "</string>
+    <string name="title_apps">Katalog Film dan Show</string>
+    <string name="test">tes</string>
+    <string name="voter">"Penilai  : "</string>
+    <string name="favorite">favorit</string>
+    <string name="menu1">Menu1</string>
+    <string name="search">telusur</string>
+    <string name="search_hint">telusuri film</string>
+    <string name="empty_text">kosong</string>
+    <string name="appwidget_text">Film Favorit</string>
+    <string name="add_widget">Tambah widget</string>
+    <string name="title_favorite_movie">Movie Favorit</string>
+    <string name="title_favorite_show">Show Favorit</string>
+    <string name="search_for">"Mencari "</string>
+    <string name="change_reminder_settings">Pengaturan Pengingat</string>
+    <string name="description_alarm">Atur alarm harian untuk membuka aplikasi ini. Alarm setiap pukul 07:00</string>
+    <string name="description_release_today">Atur alarm film yang keluar hari ini. Alarm pada pukul 08:00</string>
+    <string name="text_alarm">Pengingat Harian</string>
+    <string name="text_release_today">Pengingat Release FIlm</string>
+    <string name="turnon_alarm">Pengingat harian dihidupkan setiap pukul 07:00</string>
+</resources>
